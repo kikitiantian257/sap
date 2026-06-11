@@ -67,8 +67,8 @@ on:
 
 env:
   DOCKER_IMAGE: ${{ secrets.DOCKER_IMAGE || 'ghcr.io/moontechlab/lunatv:v100.1.3' }}
-  MEMORY: ${{ secrets.MEMORY || '512M' }}
-  DISK: ${{ secrets.DISK || '512M' }}
+  MEMORY: ${{ secrets.MEMORY || '1024M' }}
+  DISK: ${{ secrets.DISK || '1024M' }}
 
 jobs:
   deploy-app:
